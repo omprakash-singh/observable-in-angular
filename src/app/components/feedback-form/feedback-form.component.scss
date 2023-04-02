@@ -1,0 +1,37 @@
+.contain {
+     padding: auto;
+     text-align: center;
+     border-radius: 10px;
+     padding: 30px;
+     border: 2px solid darkblue;
+     width: 500px;
+
+     mat-form-field {
+          width: 100%;
+     }
+
+     button {
+          width: 100%;
+     }
+
+
+}
+
+mat-spinner {
+     z-index: 1;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 500px) {
+     .contain {
+          border: none;
+
+     }
+
+     mat-form-field {
+          width: 100%;
+     }
+}
